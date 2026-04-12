@@ -1,6 +1,6 @@
 ---
 title: SQL- JOIN에 대해서 + INNER JOIN이란
-date: 2025-04-12
+date: 2026-04-12
 categories: [CS, SQL]
 tags: [cs, sql]
 ---
@@ -28,7 +28,6 @@ tags: [cs, sql]
 일치하지 않는 데이터는 결과에서 제외된다.
 
 ## 예시
-### 테이블 예시
 # TABLE Categories 
 ![image](/assets/img/sqljoinsutdy.png)
 
