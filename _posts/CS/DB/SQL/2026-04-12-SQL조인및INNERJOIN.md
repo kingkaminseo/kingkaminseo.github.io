@@ -31,7 +31,7 @@ tags: [cs, sql]
 # TABLE Categories 
 ![image](/assets/img/sqljoinsutdy.png)
 
-# TABLE Categories 
+# TABLE Product 
 ![image](/assets/img/producttable.png)
 
 다음과 같이 Categories 테이블과 Products 테이블이 있다.   
