@@ -20,14 +20,13 @@ JOIN 과정에서 사용됨
 
 ### WHERE
 
-조회 결과에서 조건에 맞는 데이터만 남김
-JOIN 이후에 적용됨
-예시
+조회 결과에서 조건에 맞는 데이터만 JOIN 이후 WEHRE이 적용된다.
 
+### 예시
 Customers 테이블과 Orders 테이블이 있다고 가정한다.
 각 고객의 주문 정보를 조회하려고 한다.
 
-## ON에서 조건을 주는 경우
+### ON에서 조건을 주는 경우
 ```sql
 SELECT c.CustomerName, o.OrderID
 FROM Customers c
@@ -38,7 +37,7 @@ ON c.CustomerID = o.CustomerID;
 고객과 주문을 조인할 때 Customers테이블의 CustomerID와 Orders테이블의 CustomerID가 일치하는 경우에만 연결한다.  
 주문이 없거나 조건을 만족하지 않으면 **OrderID는 NULL** 로 표시된다.
 
-## WHERE에서 조건을 주는 경우
+### WHERE에서 조건을 주는 경우
 ```sql
 SELECT c.CustomerName, o.OrderID
 FROM Customers c
