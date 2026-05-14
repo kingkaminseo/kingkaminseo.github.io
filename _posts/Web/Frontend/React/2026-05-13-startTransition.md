@@ -6,6 +6,9 @@ tags: [RSC, React]
 ---
 
 ## StartTransition란?
+
+> startTransition을 사용하면 UI의 일부를 백그라운드에서 렌더링할 수 있다.  -React-
+
 startTransition는 Jank상황과 같은 무거운 렌더링 작업에서 작업 우선순위를 매겨 최적화할 수 있게 도와주는 React Hook이다.
 
   
@@ -25,3 +28,6 @@ setState를 호출하면 리액트는 렌더링을 예약한다.
 **React에서 모든 상태 업데이트는 Urgent라인으로 간주되어 모든 업데이트를 동일하게 취급한다.**    
 
 업데이트는 순서대로 처리되며, 각 업데이트가 완료되어야만 다음 업데이트가 시작된다.
+
+### startTransition의 중요한 역할
+startTransition을 사용하여, Urgent라인에 있는 상태를 Background에서 상태를 업데이트 할 수 있다.
